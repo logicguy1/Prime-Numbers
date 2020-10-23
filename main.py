@@ -1,4 +1,4 @@
-def get_prime(n): # We define a recursive function to get prime numbers
+def get_prime(n): # We define a function to check for prime numbers
     state = False # We use state to see if any other numbers can be devided into n
     for i in range(2, n): # Loop between 2 (inclusive) and n (exclusive)
         if n % i == 0: # Check if i can be devided into n
